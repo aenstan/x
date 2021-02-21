@@ -6,7 +6,7 @@
   "repo": "https://github.com/ztxtop",
   "apps": [{
       "id": "youthNeRead",
-      "name": "中青阅读",
+      "name": "中青阅读多账号",
       "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq", "youthheader_zq2", "read_zq2", "red_zq2", "readtime_zq2", "youthheader_zq3", "read_zq3", "red_zq3", "readtime_zq3", "youthheader_zq4", "read_zq4", "red_zq4", "readtime_zq4"],
       "author": "@ztxtop",
       "settings": [{
@@ -84,7 +84,7 @@
     },
     {
       "id": "youthBanner",
-      "name": "中青看看赚",
+      "name": "中青看看赚多账号",
       "keys": ["youth_banner", "youth_android_readtime", "youth_android_reward", "youth_android_newtask", "youth_banner2", "youth_android_readtime2", "youth_android_reward2", "youth_android_newtask2", "youth_banner3", "youth_android_readtime3", "youth_android_reward3", "youth_android_newtask3", "youth_banner4", "youth_android_readtime4", "youth_android_reward4", "youth_android_newtask4"],
       "author": "@ztxtop",
       "settings": [{
@@ -117,28 +117,6 @@
       "repo": "https://github.com/ztxtop/x/blob/main/youth_banner.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
-    },
-    {
-      "id": "kuaishou",
-      "name": "快手极速版",
-      "author": "@sunert",
-      "keys": ["cookie_ks", "cookies_ks"],
-      "descs_html": [
-        "多账号ck脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/NE.cookie.js\">Cookie采集器</a>】",
-        "注：NE工具中直接执行脚本将移除重复的Cookie"
-      ],
-      "settings": [{
-        "id": "cookies_ks",
-        "name": "CK 列表",
-        "val": "",
-        "type": "textarea",
-        "autoGrow": true,
-        "rows": 8,
-        "desc": "CK 列表 (JSON 格式)"
-      }],
-      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/kuaishou.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/kuaishou.png", "https://raw.githubusercontent.com/Orz-3/task/master/kuaishou.png"],
-      "script": "https://raw.githubusercontent.com/ztxtop/x/main/kuaishou.js"
     }
   ]
 }
